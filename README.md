@@ -1,5 +1,5 @@
 # Запуск: 
-0. git clone 
+0. git clone https://github.com/MikhailGeras/module0.git
 1. файл olist_delivery_clean.csv поместить в директорию "data/"
 2. cd module0
 3. uv sync
