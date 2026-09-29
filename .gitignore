@@ -1,0 +1,13 @@
+# Данные
+data/
+
+# Окружение Python
+.venv/
+
+# Кэши Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Переменные окружения
+.env
