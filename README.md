@@ -22,7 +22,7 @@
 2. Выполнить uv sync --locked.
 3. Взять olist_delivery_export.csv из материалов.
 4. Положить файл в data/olist_delivery_export.csv.
-5. Открыть HW2.ipynb в VS Code и выбрать Python из .venv.
+5. Открыть ДЗ2.ipynb в VS Code и выбрать Python из .venv.
 6. Перезапустить ядро и выполнить Run All.
 
 CSV в Git не хранится. Это учебная выгрузка;
@@ -30,13 +30,11 @@ olist_delivery_clean.csv и исходные файлы Kaggle её не зам�
 
 ### Результаты
 
-| Вариант | ROC-AUC |
-|---|---:|
-| Исходная выгрузка | 0.911819 |
-| Без handover_lag_days | 0.892328 |
-| Без record_id | 0.822342 |
-| Без seller_score | 0.897640 |
-| Без всех трёх | 0.726764 |
+| Исходная выгрузка | 0.911209 |
+| Без handover_lag_days | 0.891885 |
+| Без record_id | 0.821679 |
+| Без seller_score | 0.897571 |
+| Без всех трёх утечек | 0.725824 |
 
 ### Решения
 
